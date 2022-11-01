@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 function ResultsPanel(props){
     return (
-        <div className="results-panel">
+        <div id="results-panel">
+            <h1>Results</h1>
             {props.images}
         </div>
     )

@@ -23,6 +23,7 @@ export const DateSelector = (props) => {
     }*/
     return (
       <div id="date-selector">
+        <h1>Date Selector</h1>
         <input
           type="date"
           value={props.date}
